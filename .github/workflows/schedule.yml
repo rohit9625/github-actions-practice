@@ -2,7 +2,7 @@ name: Time Logger
 
 on:
     schedule:
-        - cron: '*/2 * * * *'
+        - cron: '*/5 * * * *'
 
 jobs:
     log_current_time:
